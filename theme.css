@@ -1023,7 +1023,7 @@ pre {
     color: #fff;
     background-color: #00b0eb; }
   .custom-control-input:focus ~ .custom-control-indicator {
-    box-shadow: 0 0 0 1px black, 0 0 0 3px #00b0eb; }
+    box-shadow: 0 0 0 1px #40A497, 0 0 0 3px #00b0eb; }
   .custom-control-input:active ~ .custom-control-indicator {
     color: #fff;
     background-color: #9fe7ff; }
@@ -2313,7 +2313,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: black;
+  background-color: #40A497;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
@@ -2715,8 +2715,8 @@ button.list-group-item-danger {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #464a4c;
-    background-color: black;
-    border-color: #ddd #ddd black; }
+    background-color: #40A497;
+    border-color: #ddd #ddd #40A497; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-left-radius: 0;
@@ -3304,7 +3304,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #292b2c;
-  background-color: black; }
+  background-color: #40A497; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -3598,7 +3598,7 @@ template {
   .table tbody + tbody {
     border-top: 2px solid #eceeef; }
   .table .table {
-    background-color: black; }
+    background-color: #40A497; }
 
 .table-sm th,
 .table-sm td {
@@ -3675,7 +3675,7 @@ template {
     background-color: #ebcccc; }
 
 .thead-inverse th {
-  color: black;
+  color: #40A497;
   background-color: #292b2c; }
 
 .thead-default th {
@@ -3683,7 +3683,7 @@ template {
   background-color: #eceeef; }
 
 .table-inverse {
-  color: black;
+  color: #40A497;
   background-color: #292b2c; }
   .table-inverse th,
   .table-inverse td,
@@ -3934,7 +3934,7 @@ mark,
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: black; }
+  background-color: #3c998d; }
 
 .bg-primary {
   background-color: #00b0eb !important; }
@@ -5909,7 +5909,7 @@ body > * {
     position: absolute;
     left: 0px;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.8) !important; }
+    background-color: rgba(64, 164, 151, 0.8) !important; }
 
 .bg-primary.bg-opaque {
   position: relative; }
