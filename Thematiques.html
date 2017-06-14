@@ -118,7 +118,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 text-center">
-          <img src="Sans%20titre20.png" class="img-fluid img-thumbnail mx-auto"> </div>
+          <img src="Sans%20titre20.png" class="img-fluid img-thumbnail mx-auto" id="myImg"> </div>
         <div class="col-md-6">
           <h2 class="text-primary" contenteditable="true">Les menuisiers</h2>
           <p class="lead">Les signatures des menuisiers, relevées directement sur les meubles, permettent de mieux connaître les artisans. Il semble même qu'on puisse parfois parler de véritables "dynasties" de menuisiers.</p>
@@ -128,9 +128,17 @@
       </div>
     </div>
   </div>
+  <div id="myModal" class="modal">
+    <!-- The Close Button --><span class="close" onclick="document.getElementById('myModal').style.display='none'">×</span>
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+  <script src="accueil.js"></script>
 </body>
 
 </html>
