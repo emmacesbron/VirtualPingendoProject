@@ -23,13 +23,15 @@ $enable-print-styles:       true !default;
 //
 // Theme settings.
 
-$body-bg: black;
+$body-bg: white;
 
 
 
 
 
-$body-color: white;
+
+$body-color: black;
+
 
 $body-color-inverse: invert($body-color) !default;
 $link-color: #00b0eb;
