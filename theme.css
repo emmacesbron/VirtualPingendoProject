@@ -1023,7 +1023,7 @@ pre {
     color: #fff;
     background-color: #00b0eb; }
   .custom-control-input:focus ~ .custom-control-indicator {
-    box-shadow: 0 0 0 1px white, 0 0 0 3px #00b0eb; }
+    box-shadow: 0 0 0 1px black, 0 0 0 3px #00b0eb; }
   .custom-control-input:active ~ .custom-control-indicator {
     color: #fff;
     background-color: #9fe7ff; }
@@ -1181,7 +1181,7 @@ pre {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #292b2c;
+  color: white;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -2313,7 +2313,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: white;
+  background-color: black;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
@@ -2467,7 +2467,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     text-decoration: none;
     background-color: #f7f7f9; }
   .list-group-item-action:active {
-    color: #292b2c;
+    color: white;
     background-color: #eceeef; }
 
 .list-group-item {
@@ -2715,8 +2715,8 @@ button.list-group-item-danger {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #464a4c;
-    background-color: white;
-    border-color: #ddd #ddd white; }
+    background-color: black;
+    border-color: #ddd #ddd black; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-left-radius: 0;
@@ -3182,7 +3182,7 @@ button.list-group-item-danger {
 
 .popover-content {
   padding: 9px 14px;
-  color: #292b2c; }
+  color: white; }
 
 .popover::before,
 .popover::after {
@@ -3303,8 +3303,8 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #292b2c;
-  background-color: white; }
+  color: white;
+  background-color: black; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -3598,7 +3598,7 @@ template {
   .table tbody + tbody {
     border-top: 2px solid #eceeef; }
   .table .table {
-    background-color: white; }
+    background-color: black; }
 
 .table-sm th,
 .table-sm td {
@@ -3675,7 +3675,7 @@ template {
     background-color: #ebcccc; }
 
 .thead-inverse th {
-  color: white;
+  color: black;
   background-color: #292b2c; }
 
 .thead-default th {
@@ -3683,7 +3683,7 @@ template {
   background-color: #eceeef; }
 
 .table-inverse {
-  color: white;
+  color: black;
   background-color: #292b2c; }
   .table-inverse th,
   .table-inverse td,
@@ -3934,7 +3934,7 @@ mark,
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: #f7f7f7; }
+  background-color: black; }
 
 .bg-primary {
   background-color: #00b0eb !important; }
@@ -5888,7 +5888,7 @@ body > * {
   color: #ffffff; }
 
 .bg-faded {
-  color: #000000; }
+  color: #ffffff; }
 
 .bg-inverse {
   color: #ffffff; }
@@ -5915,7 +5915,7 @@ body > * {
     top: 0px; }
 
 .opaque > *:first-child:before {
-  background: rgba(255, 255, 255, 0.8); }
+  background: rgba(0, 0, 0, 0.8); }
 
 .opaque.bg-primary > *:first-child:before {
   background: rgba(0, 176, 235, 0.8); }
@@ -5928,7 +5928,7 @@ body > * {
 
 .opaque-fade-out > *:first-child:before {
   background: inherit;
-  background-image: linear-gradient(to bottom, transparent 0%, white 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, black 100%);
   background-repeat: repeat-x; }
 
 .opaque-fade-out.bg-primary > *:first-child:before {
@@ -5944,6 +5944,26 @@ body > * {
 .opaque-fade-out.bg-info > *:first-child:before {
   background: inherit;
   background-image: linear-gradient(to bottom, transparent 0%, #5bc0de 100%);
+  background-repeat: repeat-x; }
+
+.opaque-fade-in > *:first-child:before {
+  background: inherit;
+  background-image: linear-gradient(to bottom, black 0%, transparent 100%);
+  background-repeat: repeat-x; }
+
+.opaque-fade-in.bg-primary > *:first-child:before {
+  background: inherit;
+  background-image: linear-gradient(to bottom, #00b0eb 0%, transparent 100%);
+  background-repeat: repeat-x; }
+
+.opaque-fade-in.bg-inverse > *:first-child:before {
+  background: inherit;
+  background-image: linear-gradient(to bottom, #292b2c 0%, transparent 100%);
+  background-repeat: repeat-x; }
+
+.opaque-fade-in.bg-info > *:first-child:before {
+  background: inherit;
+  background-image: linear-gradient(to bottom, #5bc0de 0%, transparent 100%);
   background-repeat: repeat-x; }
 
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
